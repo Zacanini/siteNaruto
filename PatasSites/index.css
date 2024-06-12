@@ -1,0 +1,377 @@
+body{
+
+background-image: linear-gradient(90deg,#E53F0C, #EF8E07, #FBBD03);
+}
+
+footer{
+    background: #ffffff38;
+    border-radius: 20PX;
+    
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 768px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-image: url(imagens/novo\ fundo\ naruto\ pagina.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#GrupoSetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -565px;
+}
+
+#fraseDeAbertura{
+    color: #F7B006;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 1150px;
+    
+}
+
+.seta{
+    display: flex;
+    height: 50px;
+   
+    
+}
+
+nav{
+    position: sticky;
+    top: 5px;
+}
+
+#DivHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #081855;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+#logo{
+    display: flex;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.BotaoHeader{
+    display: flex;
+    background-color: #EE770D;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+.BotaoHeader:hover{
+    background-color: #FBBD03;
+}
+
+#tituloNarutoClassico{
+    display: flex;
+    justify-content: center;
+}
+
+#CorpoNarutoClassico{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: -15px;
+  
+}
+
+
+#Texto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 70vw;
+    background-color: #0508155c;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#NarutoEvoluçao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-image: linear-gradient(90deg , #924741 , #3E9359 , #EFC1E8 , #FDE03C );
+    
+}
+
+#ImagemEvoluçao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#titulonaruto{
+    display: flex;
+    justify-content: center;
+}
+
+#Corponaruto{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: -15px;
+  
+}
+
+#Texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 70vw;
+    background-color: #0508155c;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#naruto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: #F7B006;
+    
+    
+    
+}
+
+.Imagemnaruto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TituloVideo{
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 22px;
+    width: 50%;
+}
+
+.Videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#tituloSasuke{
+    display: flex;
+    justify-content: center;
+}
+
+#CorpoSasuke{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: -15px;
+  
+}
+
+#Texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 70vw;
+    background-color: #0508155c;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#Sasuke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: rgb(72, 72, 103);
+    
+    
+}
+
+.ImagemSasuke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tituloSakura{
+    display: flex;
+    justify-content: center;
+}
+
+#CorpoSakura{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: -15px;
+  
+}
+
+
+#Texto4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 70vw;
+    background-color: #0508155c;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#Sakura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: #ed4b86ed;
+    
+    
+}
+
+.ImagemSakura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Rodape1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.Rodape2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.BotaoRodape{
+    display: flex;
+    background-color:black;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.BotaoRodape:hover{
+    background-color: #FBBD03;
+}
+
+#ultimafoto{
+    width: 60%;
+    padding-top: 60px;
+    margin: auto;
+    display: block;
+}
+
+.BotaoRetornaMenu{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.508);
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    margin-top: 5px;
+    padding: 4px
+}
+
+.BotaoRetornaMenu:hover{
+    background-color: #000000;
+}
+
+.linha{
+    background: black;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    

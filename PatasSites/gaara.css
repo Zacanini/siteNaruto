@@ -1,0 +1,116 @@
+body{
+    background: black;
+}
+
+#GaaraHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 768px;
+    border-radius: 20px;
+    background-image: url(imagens/GaaraHeader.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#BotaoHeader{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.BotaoRetornaMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6B0600;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#Titulos{
+    display: flex;
+    justify-content: center;
+    color: #6B0600;
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: 2px solid #6B0600;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#Gaara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ImagemGaara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divBotao{
+    display: flex;
+    justify-content: center;
+    padding: 10px;   
+}
+
+.BotaoRetornaMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6B0600;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    margin-top: 5px;
+    padding: 10px;
+}
+.BotaoRetornaMenu:hover{
+    background: black;
+}
+
+.textos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#EspaçoVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
